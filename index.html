@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!-- esta tag é responsável pelas configurações invisiveis da pagina, basicamente -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8"> <!-- responsavel pelo code de letras e caracteres da pagina -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsavel pelo ajuste ao tamanho da janela e a escala de zoom -->
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+
+        <div id="profile">
+            <img src="./assets/avatar.png" alt="Foto Matheus, com descrição de software engineer fundo azul">
+            <p>@matthsbez</p>
+        </div>
+
+        <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+        </div>
+
+        <ul> <!-- O elemento ul representa uma lista de itens -->
+            <li>
+                <!-- target abre a pagina sem sair do portifolio -->
+                <a href="#" target="_blank">Link futuro 1</a>
+            </li>
+            <li>
+                <a href="#">Link futuro 2</a>
+            </li>
+            <li>
+                <a href="#">Link futuro 3</a>
+            </li>
+            <li>
+                <a href="#">Link futuro 4</a>
+            </li>
+        </ul>
+
+        <div id="social-links">
+            <a href="https://github.com/MathSecco" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/matthsbez/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.facebook.com/mattbezerra/" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/matheussecco/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+
+        <footer>Feito com ♥ pelo
+            <a href="https://github.com/MathSecco" target="_blank">
+                Math
+            </a>
+        </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>

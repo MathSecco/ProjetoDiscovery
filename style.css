@@ -168,6 +168,8 @@ footer {
 }
 
 /* media queries */
+/* só da para aplicar isso se tiver no index meta name="viewport"
+e viewport é toda area de visualização de um dispositivo */
 @media (min-width: 700px){
     :root{
         --bg-url: url(./assets/bg-desktop.jpg);

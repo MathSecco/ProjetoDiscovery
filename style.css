@@ -88,6 +88,10 @@ body * { /*asterisco é um seletor universal, vai aplicar essas condições para
     animation: slide-in 0.4s forwards;
 }
 
+#switch button:hover{
+    outline: 8px solid var(--hightligh-color)
+}
+
 #switch span {
     display: block;
     width: 64px;
